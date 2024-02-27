@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="mainbox">
+    <input type="checkbox" id="check" />
+    <div class="btn_one">
+      <label for="check">
+        <i class="fa-solid fa-bars" id="click"></i>
+      </label>
+    </div>
+    <div class="sidebar_menu">
+      <div class="logo">
+        <a href="#">Portfolio</a>
+      </div>
+
+      <div class="btn_two">
+        <label for="check" style="color: grey">
+          <i class="fa-solid fa-xmark"></i>
+        </label>
+      </div>
+
+      <div class="menu">
+        <ul>
+          <li>
+            <i class="fa-solid fa-house"></i>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-computer"></i>
+            <a href="#skills">My Skills</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-file"></i>
+            <a href="resume.png">My Resume</a>
+          </li>
+          <li>
+            <i class="fa-brands fa-github"></i>
+            <a href="#projects"> My Projects</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-person"></i>
+            <a href="#About_me">About Me</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-phone"></i>
+            <a href="#">Contact</a>
+          </li>
+          <li>
+            <i class="fa-regular fa-comments"></i>
+            <a href="#feedback">Feedback</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="social_media">
+        <ul>
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></i></a>
+          <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></i></a>
+          <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+        </ul>
+      </div>
+    </div>
+
+    <div id="navbar">
+      <div class="elements">
+
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Certifications</a></li>
+        <li><a href="#">Achievements</a></li>
+
+      </div>
+    </div>
+
+    <div id="home">
+      <h1>Hello, I am</h1>
+      <h1><span>Nauman Tamboli</span></h1>
+      <h3> A <span>UI/UX Designer</span> and <span>Frontend Developer+</span></h3>
+      <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, enim. Tempora excepturi libero at harum, recusandae beatae. Vitae, tempore et!</h6>
+      <button class="btn1"><a href="resume.png">Resume</a><i class="fa-regular fa-circle-down"></i>
+        <button class="btn2">Hire me <i class="fa-solid fa-hand"></i></button>
+    </div></button>
+  </div>
+
+  <section id="skills">
+    <h1 style="text-decoration: underline;">My Skills</h1>
+    <div id="myskills">
+
+    <div>
+      <a href="https://www.w3schools.com/html/html_intro.asp#:~:text=Text%20Markup%20Language-,HTML%20is%20the%20standard%20markup%20language%20for%20creating%20Web%20pages,is%20a%20link%22%2C%20etc."><img src="photos/icons8-html-5-144.png" alt="" class="icons"></a>
+      <h4>HTML</h4>
+    </div>
+    <div>
+      <a href="https://www.w3schools.com/css/css_intro.asp"><img src="photos/icons8-css-144.png" alt="" class="icons"></a>
+      <h4>CSS</h4>
+    </div>
+    <div>
+      <a href="https://www.w3schools.com/bootstrap/"><img src="photos/icons8-bootstrap-120.png" alt="" class="icons"></a>
+      <h4>Bootstrap</h4>
+    </div>
+    <div>
+      <a href="https://www.w3schools.com/js/"><img src="photos/icons8-javascript-144.png" alt="" class="icons"></a>
+      <h4>Javascript</h4>
+    </div>      
+    <div>
+      <a href="https://www.w3schools.com/c/c_intro.php"><img src="photos/icons8-c-programming-144.png" alt="" class="icons"></a>
+      <h4>C </h4>
+    </div>
+
+    <div>
+      <a href="https://www.w3schools.com/cpp/cpp_intro.asp"><img src="photos/icons8-c-144.png" alt="" class="icons"></a>
+      <h4>C++ </h4>
+    </div>
+    <div>
+      <a href="https://www.geeksforgeeks.org/data-structures/"><img src="photos/icons8-problem-solving-100.png" alt="" class="icons" style="height: 144px; width: 144px;"></a>
+      <h4>Data structures and algo</h4>
+    </div>
+
+    </div>
+  </section>
+
+  <section id="projects">
+    <h1>My Projects</h1>
+    <div class="projects_flex">
+      <div class="items"><img src="photos/shoes1.jpg" alt="" class="photos">
+        <h3 style="color: rgb(217, 217, 102);"></a>Shoes delievery website</h3>
+        <p>A food delivery website is an online platform that connects hungry customers with a wide range of restaurants and eateries, facilitating the convenient ordering and delivery of meals to their doorstep. These platforms have gained immense popularity, especially in urban areas, due to their ease of use and time-saving benefits. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti suscipit impedit sapiente labore consectetur quas adipisci ipsum natus. Cupiditate, dolore?
+        </p>
+      </div>
+      <div class="items"><img src="photos/img1.jpg" alt="" class="photos">
+        <h3 style="color: rgb(217, 217, 102);">GYM website</h3>
+        <p>A gym website serves as an online hub for fitness enthusiasts. It provides information about the gym's location, hours, equipment, classes, and membership options. Users can access schedules, book sessions, and get fitness tips. It's a convenient way to stay informed and engaged with the gym's offerings and services. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nemo vel perferendis est nobis facere praesentium. A cumque esse quia.
+        </p>
+      </div>
+      <div class="items"><img src="photos/img2.jpg" alt="" class="photos">
+        <h3 style="color: rgb(217, 217, 102);">Price Comparison website</h3>
+        <p>A price comparison website is a valuable online platform that assists consumers in making well-informed purchasing decisions by providing a comprehensive overview of product or service prices from various retailers or providers. These websites serve as powerful tools for budget-conscious shoppers seeking the best deals and value for their money.
+        </p>
+      </div>
+    </div>
+  </section>
+  <div id="About_me">
+    <section class="myself">
+      <h1>About Me</h1>
+      <div class="flex">
+        <img src="photos/myphoto.jpg" alt="">
+        <p>Hello there! I'm Nauman Tamboli, a passionate Frontend Developer and UI/UX Designer with a mission to craft
+          digital experiences that not only look stunning but also function flawlessly. With a keen eye for design
+          aesthetics and a knack for turning ideas into interactive realities, I bring a unique blend of creativity and
+          technical expertise to the world of web development.
+          <br>
+          <strong>Skills and Extertise:</strong>
+          <br>
+          &bull; Frontend Wizardry: My coding skills are finely tuned, and I'm well-versed in a range of frontend technologies
+          such as HTML5, CSS3, JavaScript, and React. I take pride in creating responsive, cross-browser compatible, and
+          pixel-perfect websites.
+          <br>
+          &bull; UI/UX Mastery: Designing delightful user experiences is my forte. I have a deep understanding of user
+          psychology, which helps me craft interfaces that are not only visually appealing but also intuitive and
+          user-friendly.
+          <br>
+          &bull; Collaboration: I thrive in collaborative environments. Working closely with clients and cross-functional
+          teams, I turn ideas into reality by effectively communicating design concepts and technical solutions.
+
+          Continuous Learning: In the ever-evolving world of web development and design, I'm committed to staying
+          up-to-date with the latest trends and best practices to deliver cutting-edge solutions.
+        </p>
+      </div>
+    </section>
+  </div>
+  <section id="feedback">
+    <h1 style="text-decoration: underline;">Give your Feedback</h1>
+    <form action="backend.php" id="forms">
+
+      <div class="form_group">
+      <label for="name">Enter name:</label>
+      <input type="text" name="" id="name" placeholder="Enter your name">
+    </div>
+      
+    <div class="form_group">
+      <label for="email">Email:</label>
+      <input type="email" name="" id="email" placeholder="Enter your email">
+    </div>
+    
+    <div class="form_group">
+      <label for="numbers">Phone number:</label>
+      <input type="number" name="" id="numbers" placeholder="Enter phone number">
+    </div>
+
+    <div class="form_group">
+      <label for="textarea">Suggestions:</label>
+      <textarea name="textarea" id="" cols="30" rows="10" placeholder="Enter suggestions or any feedback"></textarea>
+    </div>
+
+    <div class="form_group">
+      <input type="submit" id="submit" style="font-size: 17px;">
+    </div>
+      
+    </form>
+  </section>
+
+  <footer>
+    <div class="center">Copyright &copy; www.naumantamboli.com All rights reserved &#x2B50;</div>
+  </footer>
+</body>
+
+</html>
